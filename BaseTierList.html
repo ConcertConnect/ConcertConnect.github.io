@@ -6,7 +6,9 @@
 -->
 <html lang="en">
 	<head>
-		
+	<script> function ShowHiddenText() {
+    document.getElementById("HiddenTextContainer").style.display = "block";
+		}	</script>
 		<meta charset="UTF-8">
 		<title>ConcertConnect</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -44,11 +46,14 @@
         <!-- Tier 1 -->
         <div class="row">
             <div class="col-md-5">
-                <h3>Tier 1</h3>
-                <h4>Venue 1</h4>
+                <h3>Tier 1 - Venues that fit perfectly</h3>
+                
+		    <h4>Venue 1</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                <div class="popup" onclick="myFunction()">Click me!
-  <span class="popuptext" id="myPopup">Popup text...</span>
+<span onclick="ShowHiddenText();">Click to see Contact Information for Booking</span>
+		    <div id="HiddenTextContainer" style="display: none;">
+  Contact Info
+</div>
 </div>
 		    <br>
 		    <br>
@@ -70,7 +75,7 @@
         <!-- Tier 2 -->
         <div class="row">
             <div class="col-md-5">
-                <h3>Tier 2</h3>
+                <h3>Tier 2 - Venues that are a good fit</h3>
                 <h4>Venue 1</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
                 <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -94,7 +99,7 @@
 					        <!-- Tier 3 -->
         <div class="row">
             <div class="col-md-5">
-                <h3>Tier 3</h3>
+                <h3>Tier 3 - Venues that might fit</h3>
                 <h4>Venue 1</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
                 <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -114,6 +119,28 @@
         </div>
         <!-- /.row -->
 
+										        <!-- Tier 4 -->
+        <div class="row">
+            <div class="col-md-5">
+                <h3>Tier 4 - Venues that probably don't fit</h3>
+                <h4>Venue 1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+		    <br>
+		    <br>
+		                    <h4>Venue 1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+		    <br>
+		    <br>
+		                    <h4>Venue 1</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+		    <br>
+		    <br>
+            </div>
+        </div>
+        <!-- /.row -->
         <hr>
 		<!-- Footer -->
 			<footer id="footer">
