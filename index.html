@@ -8,7 +8,7 @@
 	<head>
 
 
-		
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 		<meta charset="UTF-8">
 		<title>ConcertConnect - Home for booking live music</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -34,12 +34,12 @@
 
 		<!-- navbar -->
 			<header id="header">
-				<h1><a href="index.html">ConcertConnect</a></h1>
+				<h1 class="nav-title"><a href="index.html">VOKL</a></h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="#header" class="page-scroll">Home</a></li>
 						<li><a href="#about" class="page-scroll">About Us</a></li>
-						<li><a href="#signup" class="page-scroll button special">Join CC</a></li>
+						<li><a href="#signup" class="page-scroll button special">Join</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -47,13 +47,17 @@
 
 		<!-- First page view -->
 			<section id="banner">
-				<h2>The home for booking live music</h2>
-				<p>ConcertConnect connects musicians and venues in Montreal to make live shows happen.</p>
-				<ul class="actions">
-					<li>
-				    <a href="#about" class="button big page-scroll">Learn more</a>
-					</li>
-				</ul>
+				<h2 class="hero-heading">LET YOUR VOICE BE HEARD WITH VOKL</h2>
+
+				<div class="subheading-container">
+					<p class="hero-subheading">VOKL CONNECTS MUSIC PERFORMERS AND VENUES IN MONTREAL TO MAKE LIVE SHOWS HAPPEN</p>
+					<ul class="actions">
+						<li>
+						<a href="#musicians" class="button hero-button page-scroll music-button">MUSIC PERFORMERS</a>
+						<a href="#venues" class="button hero-button page-scroll">VENUES</a>
+						</li>
+					</ul>
+				</div>
 			</section>
 
 	
@@ -61,119 +65,62 @@
 		<!-- One -->
 			<section id="about" class="wrapper style1 special">
 				<div class="container">
-					<header class="major">
-                    <h2 id='about'>ConcertConnect is a unified web platform for the Montreal music industry.</h2>
-                        <p>Whether you manage a bar or a band, ConcertConnect takes the hassle out of planning live shows.</p>
-					
+					<header>
+						<h2 class="description-heading">VOKL IS A UNIFIED WEB PLATFORM FOR THE MONTREAL MUSIC INDUSTRY</h2>
+						<p class="description-text">WHETHER YOU MANAGE A BAR OR A BAND, VOKL TAKES THE HASSLE OUT OF PLANNING LIVE SHOWS</p>
 					</header>
-			
-				<div class="row 150%">
-						<div class="4u 12u$(medium)">
+					<div class="row ">
+						<div class="4u 12u$(medium) box-container">
 							<section class="box">
-								<i class="icon big rounded color9 fa-microphone"></i>
-                                <h3>Save Time</h3>
-                                <p> Get recommendations for the best live show opportunities, tailored to you, without doing all the applications.
-
-                                </p>
+								<img src="images/hourglass.png" class="box-icon">
+                                <h3 class="box-title">Save Time</h3>
+                                <p class="box-text"> Get recommendations for the best live show opportunities, tailored to you, without doing all the applications.</p>
 							</section>
 						</div>
-						<div class="4u 12u$(medium)">
+						<div class="4u 12u$(medium) box-container">
 							<section class="box">
-								<i class="icon big rounded color1 fa-laptop"></i>
-								<h3>Increase Reliability</h3>
-                                <p> Always have relevant information available to guarantee an easy and transparent booking. </p>
+								<img src="images/checkmark.png" class="box-icon">
+								<h3 class="box-title">Increase Reliability</h3>
+                                <p class="box-text"> Always have relevant information available to guarantee an easy and transparent booking. </p>
 							</section>
 						</div>
-						<div class="4u$ 12u$(medium)">
+						<div class="4u$ 12u$(medium) box-container">
 							<section class="box">
-								<i class="icon big rounded color6 fa-users"></i>
-								<h3>Discover your City</h3>
-                                <p> Build a basic webpage that connects your online presence, and easily find other Bands and Venues who do the same.</p>
+								<img src="images/compass.png" class="box-icon">
+								<h3 class="box-title">Discover your City</h3>
+                                <p class="box-text"> Build a basic webpage that connects your online presence, and easily find other Bands and Venues who do the same.</p>
 							</section>
 						</div>
 					</div>
-					
-					<div class="row 150%">
-					<center>
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<i class="icon big rounded color9"></i>
-                                <h3>Musicians</h3>
-                                <p> 
-                                	We know you want to play more shows, but taking the time to do all the messages and "networking" isn't what got you into music. ConcertConnect gives you a tailored lists of Venues with all relevant booking information to make the process easier. Build a profile with information Venues are looking for and we do the rest.
-                  
-                                </p>
-							</section>
-						</div>
-						<div class="4u 12u$(medium)">
-							<section class="box">
-								<i class="icon big rounded color1"></i>
-								<h3>Venues</h3>
-                                <p>
-                                	Finding the bands that fit your venue best is an art itself. ConcertConnect standardizes the information you receive from bands in a personalized way so you can spend more time choosing the best band for you instead of chasing information.
-                                	<br>
 
-                                </p>
-							</section>
+
+					<div class="row info-container" id="musicians">
+						<div class="info-heading-container">
+							<h2 class="description-heading info-heading">Musicians</h2>
+							<p class="info-description">We know you want to play more shows, but taking the time to do all the messages and "networking" isn't what got you into music. ConcertConnect gives you a tailored lists of Venues with all relevant booking information to make the process easier. Build a profile with information Venues are looking for and we do the rest.</p>
+							<a href="https://goo.gl/forms/Lq7Rl2IUglRzgAgT2" class="button hero-button page-scroll">JOIN AS A PERFORMER</a>
 						</div>
+					</div>
+
+
+					<div class="row info-container" id="venues">
+						<div class="info-heading-container">
+							<h2 class="description-heading info-heading">Venues</h2>
+							<p class="info-description">Finding the bands that fit your venue best is an art itself. ConcertConnect standardizes the information you receive from bands in a personalized way so you can spend more time choosing the best band for you instead of chasing information.</p>
+							<a href="https://goo.gl/forms/v1NmUmrpovffFzsH2" class="button hero-button page-scroll">JOIN AS A VENUE</a>
 						</div>
-					</center>
-					
-                	<ul class="actions">
-					<li>
-				    <a href="https://goo.gl/forms/Lq7Rl2IUglRzgAgT2" class="button special big smoothScroll">Join as a Performer</a>
-					</li>
-						<li>
-				    <a href="https://goo.gl/forms/v1NmUmrpovffFzsH2" class="button special big smoothScroll">Join as a Venue</a>
-					</li>
-				</ul>
+					</div>
+
+
+
+
 
 				</div>
 			</section>
             
         
 
-            <!-- Three --><a name="signup"></a>
-			<section id="signup" class="wrapper style3 special">
-				<div class="container">
-					<header class="major">
-                    <h2>Join ConcertConnect</h2>
-                        <p>  ConcertConnect is currently under development, but by signing up, we'll let you know
-				when we've officially launched!
-				 </p> 
-					</header>
-				</div>
-				<div class="container 50%">
-                    <form action="//concertconnect.us14.list-manage.com/subscribe/post?u=580d4ccc71ac176d7129ffbdb&amp;id=d3d21a1260" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-						   <div id="mc_embed_signup_scroll">
-                               <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                        <div class="row uniform">
-							<div class="6u 12u$(small)">
-                                <!--<input type="text" input name="name" id="name" value="" placeholder="Name" type="text">-->
-                                <input type="text" value="" name="NAME" class="" id="mce-NAME" placeholder="Name">
-							</div>
-							<div class="6u$ 12u$(small)">
-                                <!--<input name="email" id="email" value="" placeholder="Email" type="email">-->
-                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email*">
-							</div>
-                            <div id="mce-responses" class="clear">
-                                <div class="response" id="mce-error-response" style="display:none"></div>
-                                <div class="response" id="mce-success-response" style="display:none"></div>
-                            </div> 
-							<div class="12u$">
-								<textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
-							</div>
-							<div class="12u$">
-								<ul class="actions">
-									<li><input type="submit" value="Let me know when it's ready" class="special big" id="mc-embedded-subscribe" name="subscribe"></li>
-								</ul>
-							</div>
-                        </div>
-                    </div>
-						</div>
-					</form>
-				</div>
-			</section>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -188,7 +135,7 @@
 			<footer id="footer">
                             <ul class="copyright">
                                 <center>
-                                    <li>&copy; ConcertConnect - Montreal born</li>
+                                    <li>&copy; VOKL - Montreal Born</li>
                         
                        
                             </center>
